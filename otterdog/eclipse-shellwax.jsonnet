@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-shellwax') {
+orgs.newOrg('tools.shellwax', 'eclipse-shellwax') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
